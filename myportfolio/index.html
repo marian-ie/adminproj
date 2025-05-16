@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="m.svg">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">Marian Talaid</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello, It's <span>Marian</span></h2>
+            <h3 class="text-animation">An aspiring <span></span></h3>
+            <p>Welcome to my digital portfolio. I'm passionate about technology and innovation.</p>
+        </div>
+
+        <div class="home-img">
+            <img src="cute.png" alt="Marian Talaid">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="row">
+            <div class="about-col-2">
+                <h2 class="sub-title">About <span>Me</span></h2>
+                <p>
+                    I'm an aspiring IT professional with a passion for data analysis, UI/UX design, and cloud computing.
+                    Currently pursuing my degree in Information Technology at Western Mindanao State University, I'm eager
+                    to learn and grow in this ever-evolving field. I enjoy tackling complex problems and finding innovative
+                    solutions through technology.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('personal-information')">Personal Information</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="personal-information">
+                    <ul>
+                        <li><span>Name</span><br>Marian Claire V. Talaid</li>
+                        <li><span>Address</span><br>Putik, Zamboanga City</li>
+                        <li><span>Date of Birth</span><br>May 11, 2005</li>
+                        <li><span>Nationality</span><br>Filipino</li>
+                        <li><span>Email</span><br>mariantalaid@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Present</span><br>Bachelor of Science in Information Technology<br>Western Mindanao State University</li>
+                        <li><span>2021 - 2023</span><br>Senior High School<br>Zamboanga Chong Hua High School</li>
+                        <li><span>2017 - 2021</span><br>Junior High School<br>Maria Clara Lorenzo Lobregat National High School</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="interests">
+                    <ul>
+                        <li><span>Technology</span><br>Exploring new tech trends and innovations</li>
+                        <li><span>Data Analysis</span><br>Finding patterns and insights in complex data</li>
+                        <li><span>UI/UX Design</span><br>Creating intuitive and beautiful user experiences</li>
+                        <li><span>Cloud Computing</span><br>Working with cloud infrastructure and services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2 class="heading">My <span>Resume</span></h2>
+        
+        <div class="resume-container">
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <h5>2023 - Present</h5>
+                    <p><em>Western Mindanao State University, Zamboanga City</em></p>
+                    <p>An Information Technology student aspiring to earn a Bachelor of Science in Information Technology, with a strong passion for technology and a goal of becoming part of the tech industry in the future.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Senior High School</h4>
+                    <h5>2021 - 2023</h5>
+                    <p><em>Zamboanga Chong Hua High School, Zamboanga City</em></p>
+                    <p>A former Humanities and Social Sciences (HUMSS) student in senior high school, with a background in subjects focused on communication, social sciences, and human behavior.</p>
+                </div>
+            </div>
+            
+           
+            
+            <div class="resume-section">
+                <h3>Technical Skills</h3>
+                <div class="resume-item">
+                    <div class="skill-bar">
+                        <div class="skill-name">HTML/CSS</div>
+                        <div class="skill-level" style="width: 60%;">60%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level" style="width: 10%;">10%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-level" style="width: 15%;">15%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">SQL</div>
+                        <div class="skill-level" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Soft Skills</h3>
+                <div class="resume-item">
+                    <div class="skill-bar">
+                        <div class="skill-name">Problem Solving</div>
+                        <div class="skill-level" style="width: 50%;">50%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Team Collaboration</div>
+                        <div class="skill-level" style="width: 65%;">65%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Communication</div>
+                        <div class="skill-level" style="width: 50%;">50%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-name">Time Management</div>
+                        <div class="skill-level" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <h2 class="heading">Collaborated <span>Projects</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="mohamed-fareed-rbSNsoXk-3A-unsplash.jpg" alt="Reading">
+                <div class="portfolio-layer">
+                    <h4>FitTrack</h4>
+                    <p>A gym management system designed to track registered gym-goers, monitor their attendance, and manage their membership status. Non-members can also use the system to register and avail of gym memberships</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="majestic-lukas-ipsd4Z55-rw-unsplash.jpg" alt="Listening To Music">
+                <div class="portfolio-layer">
+                    <h4>HopStop</h4>
+                    <p>A bus booking system that allows passengers to conveniently search for available routes, view schedules, and book bus tickets online. The system aims to simplify the ticket reservation process, enhance user experience, and ensure secure and efficient transactions.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="brooke-lark-1Rm9GLHV0UA-unsplash.jpg" alt="Pickle Ball">
+                <div class="portfolio-layer">
+                    <h4>Epikureaa</h4>
+                    <p>A mobile app for food recipes that goes beyond simple browsing. It features a wide variety of recipes from different cultures and places, while also offering social interaction. Users can like, comment, and engage with other food enthusiasts, making it a more community-driven, social recipe app.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="icon">✉</i>
+                    <h3>Email</h3>
+                    <p>mariantalaid@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon">✆</i>
+                    <h3>Phone</h3>
+                    <p>+63 96140 0928</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon">➤</i>
+                    <h3>Location</h3>
+                    <p>Putik, Zamboanga City, Philippines</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon">🖳</i>
+                    <h3>Social Media</h3>
+                    <div class="social-links">
+                        <a href="#">Tiktok</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Marian Talaid | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
